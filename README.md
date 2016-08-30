@@ -4,19 +4,16 @@
 
 ![TinyFarmer@Home Intro](https://raw.githubusercontent.com/makezonefablab/TinyFarmer-HOME/master/img/IMG_6425.jpg)  
 
-[*헝그리봇 교안 - 메이크존 사이트 바로가기*](http://makezone.co.kr/blog/2014/08/14/07hungrybot/)
+[*타이니파머 허브 - 사이트 바로가기*](http://106.240.234.10/mediafarmHome/?page_id=14724)
 
 소개
 --------------
-타이니 파머를 간단하게 사용하는 방법입니다.
+농장에 설치된 비트모스(BitMoss)와 연결되어 전송되는 데이터를 타이니파머 서버로 전달합니다.
 
-ESP8266 이 AP역할을하며 그 안에 서버 모듈을 탑재하여 스마트폰에서 AP를 찾아 연결하고 앱을 켜면 바로 연동이 됩니다.
+인터넷과의 연결로 클라우드로 모아진 데이터를 전송하고 제어 명령을 받아 비트모스를 제어합니다.
 
-타이니파머의 가정용 버전으로 온도 및 습도 센서를 통해 재배에 필요한 다양한 정보를 얻어 올 수 있습니다.
+별도의 설정이 필요 없이 바로 농장에 적용 가능합니다.
 
-현재 출시된 센서는 토양습도, 대기습도, 대기온도의 데이터를 측정할 수 있고 작물에 따라 적절한 온도와 습도를 설정하여 상태를 확인할 수 있습니다.
-
-또한, 아이콘을 클릭하면 토양과 대기 상태를 캐릭터로 쉽게 확인할 수 있습니다.
 
 ![TinyFarmer@Home App](https://raw.githubusercontent.com/makezonefablab/TinyFarmer-HOME/master/img/Samsung-Galaxy-S5-PSD-MockUp-2.jpg)  
 ![TinyFarmer@Home App](https://raw.githubusercontent.com/makezonefablab/TinyFarmer-HOME/master/img/IMG_1940_square-1024x1024.jpg)
