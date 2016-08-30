@@ -15,10 +15,11 @@
 별도의 설정이 필요 없이 바로 농장에 적용 가능합니다.
 
 
-![TinyFarmer-HUB App](https://raw.githubusercontent.com/makezonefablab/TinyFarmer-HOME/master/img/Samsung-Galaxy-S5-PSD-MockUp-2.jpg) 
 
 준비물
 --------------
+
+![TinyFarmer-HUB App](https://github.com/makezonefablab/TinyFarmer-HUB/blob/master/rasp.jpg) 
 
 
 제작영상
