@@ -2,7 +2,7 @@
 타이니파머의 센서값과 제어등을 처리하는 농장의 에이전트 (Agent)
 ==========================
 
-![TinyFarmer@Home Intro](https://raw.githubusercontent.com/makezonefablab/TinyFarmer-HOME/master/img/IMG_6425.jpg)  
+![TinyFarmer-HUB Intro](https://github.com/makezonefablab/TinyFarmer-HUB/blob/master/tinyFarmerHub.png)  
 
 [*타이니파머 허브 - 사이트 바로가기*](http://106.240.234.10/mediafarmHome/?page_id=14724)
 
