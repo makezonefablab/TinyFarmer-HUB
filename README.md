@@ -8,6 +8,14 @@
 
 [*타이니파머 허브 개발관련 카페 - 사이트 바로가기*](http://cafe.naver.com/makezone#)
 
+OS파일 다운로드
+--------------
+
+[*라즈베리 2*](http://my.tinyfarmer.com/tinyfarmer/atth/TinyFarmer-Hub-Raspberry2.img)
+[*라즈베리 3*](http://my.tinyfarmer.com/tinyfarmer/atth/TinyFarmer-Hub-Raspberry3.img)
+[*라즈베리 b+*](http://my.tinyfarmer.com/tinyfarmer/atth/TinyFarmer-Hub-Raspberryb.img)
+
+
 소개
 --------------
 농장에 설치된 비트모스(BitMoss)와 연결되어 전송되는 데이터를 타이니파머 서버로 전달합니다.
@@ -23,9 +31,6 @@
 
 ![TinyFarmer-HUB App](https://github.com/makezonefablab/TinyFarmer-HUB/blob/master/img/rasp.jpg) 
 
-
-제작영상
---------------
 
 
 
