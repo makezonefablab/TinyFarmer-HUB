@@ -33,8 +33,8 @@ OS파일 다운로드
 > 1. 소스 다운로드 
 ```
 ~ $ cd /home/mediaflow
-~ $ sudo wget https://github.com/makezonefablab/TinyFarmer-HUB/src/TinyfarmerHubWeb.tar 
-~ $ sudo wget https://github.com/makezonefablab/TinyFarmer-HUB/src/TinyfarmerHub.tar
+~ $ sudo wget https://github.com/makezonefablab/TinyFarmer-HUB/tree/master/src/TinyfarmerHubWeb.tar 
+~ $ sudo wget https://github.com/makezonefablab/TinyFarmer-HUB/tree/master/src/TinyfarmerHub.tar
 ~ $ sudo tar xvf TinyfarmerHub.tar
 ~ $ sudo tar xvf TinyfarmerHubWeb.tar
 ```
