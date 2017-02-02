@@ -32,7 +32,10 @@ OS파일 다운로드
 
 --------------
 > 1. 소스 다운로드 
->>
+```
+~ $ cd /home/mediaflow
+~ $ sudo wget https://github.com/makezonefablab/TinyFarmer-HUB/src/
+```
 
 
 준비물
