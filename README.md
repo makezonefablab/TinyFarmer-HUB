@@ -28,14 +28,39 @@ OS파일 다운로드
 
 
 
-
-
+설치 
 --------------
 > 1. 소스 다운로드 
 ```
 ~ $ cd /home/mediaflow
-~ $ sudo wget https://github.com/makezonefablab/TinyFarmer-HUB/src/
+~ $ sudo wget https://github.com/makezonefablab/TinyFarmer-HUB/src/TinyfarmerHubWeb.tar 
+~ $ sudo wget https://github.com/makezonefablab/TinyFarmer-HUB/src/TinyfarmerHub.tar
+~ $ sudo tar xvf TinyfarmerHub.tar
+~ $ sudo tar xvf TinyfarmerHubWeb.tar
 ```
+> 2.자바 메인모듈 
+```
+~ $ cd TinyfarmerHub/bin
+~ $ sudo chown root:root TinyfarmerHub.sh
+~ $ sudo chmod 744 TinyfarmerHub.sh
+```
+> 3.Web Application GUI 
+```
+~ $ sudo vi /usr/local/tomcat-8.0.36/conf/Catalina/localhost/ROOT.xml
+
+아래 내용 추가
+
+<?xml version='1.0' encoding='utf-8'?>
+<Context crossContext="true" path="" docBase="/home/mediaflow/TinyfarmerHubWeb"> 
+</Context>
+
+~ $ sudo service tomcat restart
+```
+
+
+
+
+
 
 
 준비물
