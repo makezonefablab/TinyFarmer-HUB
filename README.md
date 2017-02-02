@@ -33,10 +33,10 @@ OS파일 다운로드
 > 1. 소스 다운로드 
 ```
 ~ $ cd /home/mediaflow
-~ $ sudo wget https://github.com/makezonefablab/TinyFarmer-HUB/tree/master/src/TinyfarmerHubWeb.tar 
-~ $ sudo wget https://github.com/makezonefablab/TinyFarmer-HUB/tree/master/src/TinyfarmerHub.tar
-~ $ sudo tar xvf TinyfarmerHub.tar
-~ $ sudo tar xvf TinyfarmerHubWeb.tar
+~ $ wget https://github.com/makezonefablab/TinyFarmer-HUB/tree/master/src/TinyfarmerHubWeb.tar 
+~ $ wget https://github.com/makezonefablab/TinyFarmer-HUB/tree/master/src/TinyfarmerHub.tar
+~ $ tar xvf TinyfarmerHub.tar
+~ $ tar xvf TinyfarmerHubWeb.tar
 ```
 > 2.자바 메인모듈 
 ```
