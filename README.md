@@ -49,14 +49,14 @@ OS파일 다운로드
 ~ $ sudo vi /usr/local/tomcat-8.0.36/conf/Catalina/localhost/ROOT.xml
 
 아래 내용 추가
-
+```
 ~~~xml
 <?xml version='1.0' encoding='utf-8'?>
 <Context crossContext="true" path="" docBase="/home/mediaflow/TinyfarmerHubWeb" >
 </Context >
 ~~~
 
-
+```
 ~ $ sudo service tomcat restart
 ```
 
