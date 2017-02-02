@@ -50,11 +50,11 @@ OS파일 다운로드
 
 아래 내용 추가
 
-
+~~~xml
 &lt; ?xml version='1.0' encoding='utf-8'?&gt;
 &lt; Context crossContext="true" path="" docBase="/home/mediaflow/TinyfarmerHubWeb" &gt; 
 &lt; /Context &gt;
-
+~~~
 
 
 ~ $ sudo service tomcat restart
