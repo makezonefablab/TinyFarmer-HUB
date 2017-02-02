@@ -47,7 +47,7 @@ OS파일 다운로드
 > 3.Web Application GUI 
 ```
 ~ $ sudo vi /usr/local/tomcat-8.0.36/conf/Catalina/localhost/ROOT.xml
-```
+
 아래 내용 추가
 
 ~~~xml
@@ -56,7 +56,7 @@ OS파일 다운로드
 </Context >
 ~~~
 
-```
+
 ~ $ sudo service tomcat restart
 ```
 
