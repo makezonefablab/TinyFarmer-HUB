@@ -54,7 +54,7 @@ OS파일 다운로드
 ```
 
 
-~~~
+~~~ xml
 <?xml version='1.0' encoding='utf-8'?>
 <Context crossContext="true" path="" docBase="/home/mediaflow/TinyfarmerHubWeb" >
 </Context >
