@@ -60,7 +60,9 @@ OS파일 다운로드
 > 4.rc.local 수정  
 ```
 ~ $ sudo nano /etc/rc.local (아래 내용 추가)
+```
 
+~~~
 # Print the IP address
 _IP=$(hostname -I) || true
 if [ "$_IP" ]; then
@@ -74,9 +76,7 @@ sudo /home/mediaflow/TinyfarmerHub/bin/TinyfarmerHub.sh start
 sleep 10
 sudo python /home/mediaflow/TinyfarmerMaster/Master_Start.py
 
-```
-
-
+~~~
 
 
 준비물
