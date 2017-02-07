@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+
+	<package name="config" namespace="" extends="struts-tinyfarmerhub">
+
+		<default-interceptor-ref name="userLogin" />
+
+		<action name="base" class="com.mediaflow.tinyfarmerhub.action.SelectBaseAction">
+			<result>/view/base.jsp</result>
+		</action>
+		<!-- 
+		<action name="high" class="com.mediaflow.tinyfarmerhub.action.SelectHighAction">
+			<result>/view/high.jsp</result>
+		</action>
+		 
+		<action name="saveTinyfarmerHubInformation" class="com.mediaflow.tinyfarmerhub.action.TinyfarmerHubInformationAction" method="save">
+			<result type="json"></result>
+		</action>
+
+		<action name="selectTinyfarmerHubInformation" class="com.mediaflow.tinyfarmerhub.action.TinyfarmerHubInformationAction" method="select">
+			<result type="json"></result>
+		</action>
+		-->
+		<action name="saveCloudServerInformation" class="com.mediaflow.tinyfarmerhub.action.CloudServerInformationAction" method="save">
+			<result type="json"></result>
+		</action>
+
+		<action name="selectCloudServerInformation" class="com.mediaflow.tinyfarmerhub.action.CloudServerInformationAction" method="select">
+			<result type="json"></result>
+		</action>
+
+		<action name="saveSensorNodeInformation" class="com.mediaflow.tinyfarmerhub.action.SensorNodeInformationAction" method="save">
+			<result type="json"></result>
+		</action>
+
+		<action name="selectSensorNodeInformation" class="com.mediaflow.tinyfarmerhub.action.SensorNodeInformationAction" method="select">
+			<result type="json"></result>
+		</action>
+		<!-- 
+		<action name="saveProcessPeriod" class="com.mediaflow.tinyfarmerhub.action.ProcessPeriodAction" method="save">
+			<result type="json"></result>
+		</action>
+
+		<action name="selectProcessPeriod" class="com.mediaflow.tinyfarmerhub.action.ProcessPeriodAction" method="select">
+			<result type="json"></result>
+		</action>
+		
+		<action name="saveBufferSize" class="com.mediaflow.tinyfarmerhub.action.BufferSizeAction" method="save">
+			<result type="json"></result>
+		</action>
+
+		<action name="selectBufferSize" class="com.mediaflow.tinyfarmerhub.action.BufferSizeAction" method="select">
+			<result type="json"></result>
+		</action>
+		
+		<action name="saveCloudServerHttpUrl" class="com.mediaflow.tinyfarmerhub.action.CloudServerHttpUrlAction" method="save">
+			<result type="json"></result>
+		</action>
+
+		<action name="selectCloudServerHttpUrl" class="com.mediaflow.tinyfarmerhub.action.CloudServerHttpUrlAction" method="select">
+			<result type="json"></result>
+		</action>
+		 -->
+		<action name="logView">
+			<result>/view/log.jsp</result>
+		</action>
+	</package>
+	
+</struts>

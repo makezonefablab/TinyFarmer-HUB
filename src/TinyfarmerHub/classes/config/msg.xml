@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<msg>
+
+	<!-- 
+	============================================================
+		Server Message
+	============================================================
+	 -->
+	<SERVER_000>서버 {} 시작</SERVER_000>
+	<SERVER_001>서버 {} 성공</SERVER_001>
+	<SERVER_002>서버를 {}하기 위한 모든 Thread {}</SERVER_002>
+	<SERVER_003>데이터베이스 설정파일({}) 초기화</SERVER_003>
+	<SERVER_004>버퍼로 사용할 파일 디렉토리({}) 생성</SERVER_004>
+	<SERVER_005>버퍼로 사용할 파일({}) 생성</SERVER_005>
+	<SERVER_006>메모리 버퍼({}) / 파일버퍼({}) 생성 후 버퍼 풀에 저장</SERVER_006>
+	<SERVER_007>Pool Manager에 {} 등록</SERVER_007>
+	<SERVER_008>데이터베이스 코드정보 조회</SERVER_008>
+	<SERVER_009>Queue 생성</SERVER_009>
+	<SERVER_010>AcceptSelect 생성 후 풀에 저장. ({}:{})</SERVER_010>
+	<SERVER_011>RequestSelect 생성 후 풀에 저장</SERVER_011>
+	<SERVER_012>{} Thread 생성 후 풀에 저장</SERVER_012>
+	<SERVER_013>{} Thread 종료</SERVER_013>
+	<SERVER_099>Server Start - Resource Initialization ERROR : {}</SERVER_099>
+
+	<!-- 
+	============================================================
+		Handler Thread 메시지
+	============================================================
+	 -->
+	<HANDLER_001>{} Handler Thread 정상 시작</HANDLER_001>
+	<HANDLER_002>{} Handler Thread 정상 종료</HANDLER_002>
+	<HANDLER_003>호스트와 포트에 정상적으로 Bind : {}</HANDLER_003>
+	<HANDLER_004>ERROR : {}</HANDLER_004>
+	<HANDLER_005>새로운 클라이언트 Selector 등록 에러 : {}</HANDLER_005>
+	<HANDLER_006>Selector is closed : {}</HANDLER_006>
+	<HANDLER_007>Selector I/O error occurs : {}</HANDLER_007> 
+	<HANDLER_008>processRequest 처리 중 에러 : {}</HANDLER_008> 
+	<HANDLER_009>프로토콜 : {}</HANDLER_009> 
+	<HANDLER_010>프로토콜 타입 : {}</HANDLER_010> 
+	<HANDLER_011>({}) 클라이언트 연결</HANDLER_011>
+
+	<!-- 
+	============================================================
+		Process Message
+	============================================================
+	 -->
+	<PROCESS_001>{} Process 정상 시작</PROCESS_001>
+	<PROCESS_002>{} Process 정상 종료</PROCESS_002>
+	<PROCESS_003>Process ERROR : {}</PROCESS_003>
+	<PROCESS_004>Http 전송 에러 : {}</PROCESS_004>
+	<PROCESS_005>전송프로토콜 : {}</PROCESS_005>
+	<PROCESS_006>전송성공 : {} byte</PROCESS_006>
+	<PROCESS_007>전송실패 : {}</PROCESS_007>
+	<PROCESS_008>프로토콜 : {}</PROCESS_008>
+	<PROCESS_009>클라이언트({})에 프로토콜 전송 성공</PROCESS_009>
+	<PROCESS_010>클라이언트({})에 프로토콜 전송 실패 : {}</PROCESS_010>
+	<PROCESS_011>프로토콜타입 : {}</PROCESS_011>
+	<PROCESS_012>Client({}) registration</PROCESS_012>
+	<PROCESS_013>Bitmoss Sensor Heartbeat 프로토콜 : {}</PROCESS_013>
+	<PROCESS_014>Bitmoss Sensor Heartbeat 프로토콜 생성 실패 : {}</PROCESS_014>
+	<PROCESS_121>수신 프로토콜 :  {}</PROCESS_121>
+	<PROCESS_122>클라이언트({})에 응답 프로토콜 전송 성공 : {}</PROCESS_122>
+	<PROCESS_123>클라이언트({})에 응답 프로토콜 전송 실패 : {}</PROCESS_123>
+	<PROCESS_124>Colud Server에 전송 - 응답 프로토콜  : {} - {}</PROCESS_124>
+	<PROCESS_251>Connected to {}</PROCESS_251>
+	<PROCESS_252>Disconnect to {}</PROCESS_252>
+	<PROCESS_253>Reconnection try to {} - Interval : {}</PROCESS_253>
+	<PROCESS_254>Not connected to {}</PROCESS_254>
+	<PROCESS_255>Unrecoverable Error : {}</PROCESS_255>
+	<PROCESS_256>Receive from Server : {}</PROCESS_256>
+	<PROCESS_257>Peer closed read channel</PROCESS_257>
+	
+	<!-- 
+	============================================================
+		Client Manager Message
+	============================================================
+	 -->
+	<CM_001>임시 클라이언트({}) 등록 [Client Size : {}]</CM_001>
+	<CM_002>임시 클라이언트({}-{}) 삭제 [Client Size : {}]</CM_002>
+	<CM_003>클라이언트({}-{}) 등록 [ClientMap Size : {}]</CM_003>
+	<CM_004>클라이언트({}) 삭제 [ClientMap Size : {}]</CM_004>
+	<CM_005>클라이언트({}-{}) 이미 등록</CM_005>
+	<CM_006>기등록된 임시 클라이언트({}) 삭제 [Client Size : {}]</CM_006>
+	
+	<!-- 
+	============================================================
+		Scheduler Message
+	============================================================
+	 -->
+	<SCHEDULER_001>{} Scheduler Start</SCHEDULER_001>
+	<SCHEDULER_002>{} Scheduler Shutdown</SCHEDULER_002>
+	<SCHEDULER_003>Scheduler Shutdown ERROR : {}</SCHEDULER_003>
+	<SCHEDULER_004>Scheduler Start ERROR : {}</SCHEDULER_004>
+	
+	<!-- 
+	============================================================
+		Scheduler DeleteLogFiles
+	============================================================
+	 -->
+	<SDG_001>({}) - Path that does not exist</SDG_001>
+	<SDG_002>({}) - Directory is not</SDG_002>
+	<SDG_003>Date archive {} must be at least a minimum of one day</SDG_003>
+	<SDG_004>({}) delete Success !  </SDG_004>
+	<SDG_005>({}) delete failure !  </SDG_005>
+	<SDG_006>Keep date ({}) the remaining files ({}) does not delete</SDG_006>
+	<SDG_007>Keep date ({}) is not the last file is not deleted files</SDG_007>
+	<SDG_008>Total ({}) files have been deleted</SDG_008>
+	<SDG_009>File ({} - {} byte), so do not delete the minimum Size. (By less than 1byte)</SDG_009>
+	<SDG_010>File ({}) is the number of files in the folder, so is {} does not delete </SDG_010>
+	<SDG_011>Console log file ({}) does not delete</SDG_011>
+	<SDG_012>({}) is a file that is currently being used</SDG_012>
+	<SDG_015>Scheduler Delete ERROR</SDG_015>
+
+</msg>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<configuration>
+    <system></system>
+    <properties fileName="config.properties" />
+    <properties fileName="quartz.properties" />
+    <xml fileName="msg.xml" />
+</configuration>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<!-- <constant name="struts.action.extension" value="do" /> -->
+	<constant name="struts.custom.i18n.resources" value="config" />
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<constant name="struts.devMode" value="true"></constant>
+	
+	<include file="com/mediaflow/tinyfarmer/struts2/struts-tinyfarmerhub.xml" />
+	<include file="com/mediaflow/tinyfarmer/struts2/struts-login.xml" />
+	<include file="com/mediaflow/tinyfarmer/struts2/struts-service.xml" />
+	<include file="com/mediaflow/tinyfarmer/struts2/struts-config.xml" />
+	<include file="com/mediaflow/tinyfarmer/struts2/struts-register.xml" />
+	
+</struts>

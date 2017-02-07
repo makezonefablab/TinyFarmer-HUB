@@ -1,0 +1,60 @@
+body:before, body:after {
+	content: "";
+	position: fixed;
+	background: #900;
+	left: 0;
+	right: 0;
+	height: 10px;
+}
+body:before {
+	top: 0;
+}
+body:after {
+	bottom: 0;
+}
+body {
+	border-left: 10px solid #900;
+	border-right: 10px solid #900;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #eee;
+}
+		
+@media 
+
+/* Fairly small screens including iphones */
+only screen and (max-width: 500px),
+
+/* iPads */
+only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+
+{
+	body { border: 0; }
+	body:before, body:after { display: none; }
+}
+
+.title {
+  margin-bottom: 10px;
+  font-weight:bold;
+  font-size: 25px;
+}
+
+.contact {
+	font-weight:bold;
+	padding-top: 15px;
+}
+
+.company {
+	font-weight:bold;
+	padding-top: 15px;
+}
+
+.mail {
+	font-weight:bold;
+	padding-left: 27px;
+}
+
+.board {
+	font-weight:bold;
+	padding-left: 27px;
+}

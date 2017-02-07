@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="struts-tinyfarmerhub" extends="struts-default, json-default">
+
+		<interceptors>
+			<interceptor name="loginInterceptor"
+				class="com.mediaflow.common.interceptor.LoginInterceptor" />
+			<interceptor name="loginSessionInterceptor"
+				class="com.mediaflow.common.interceptor.LoginSessionInterceptor" />
+
+			<interceptor-stack name="userLogin">
+				<interceptor-ref name="loginInterceptor" />
+				<interceptor-ref name="loginSessionInterceptor" />
+				<interceptor-ref name="defaultStack" />
+			</interceptor-stack>
+		</interceptors>
+
+		<global-results>
+			<result name="error">/view/error.jsp</result>
+			<result name="index" type="redirect">index</result>
+		</global-results>
+
+		<global-exception-mappings>
+			<exception-mapping exception="java.lang.Exception" result="error" />
+		</global-exception-mappings>
+		
+<!-- 
+		<global-results>
+			<result name="exception">/view/exception.jsp</result>
+			<result name="runtime_exception">/view/runtime_exception.jsp</result>
+			<result name="error">/view/error.jsp</result>
+			<result name="index" type="redirect">index</result>
+		</global-results>
+
+		<global-exception-mappings>
+			<exception-mapping exception="java.lang.Exception"
+				result="exception"></exception-mapping>
+			<exception-mapping exception="java.lang.Error"
+				result="error"></exception-mapping>
+			<exception-mapping exception="java.lang.RuntimeException"
+				result="runtime_exception"></exception-mapping>
+		</global-exception-mappings>
+ -->
+ 
+<!-- 
+		<global-results>
+			<result name="error">/view/error.jsp</result>
+			<result name="index" type="redirect">index</result>
+		</global-results>
+
+		<global-exception-mappings>
+			<exception-mapping exception="java.lang.Exception" result="error" />
+		</global-exception-mappings>
+ -->
+	</package>
+</struts>

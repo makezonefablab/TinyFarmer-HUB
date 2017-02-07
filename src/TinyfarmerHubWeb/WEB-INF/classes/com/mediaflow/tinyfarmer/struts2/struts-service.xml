@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+
+	<package name="service" namespace="" extends="struts-tinyfarmerhub">
+
+		<default-interceptor-ref name="userLogin" />
+		
+		<action name="startService" class="com.mediaflow.tinyfarmerhub.action.ServiceAction" method="start">
+			<result type="json"></result>
+		</action>
+
+		<action name="stopService" class="com.mediaflow.tinyfarmerhub.action.ServiceAction" method="stop">
+			<result type="json"></result>
+		</action>
+
+		<action name="restartService" class="com.mediaflow.tinyfarmerhub.action.ServiceAction" method="restart">
+			<result type="json"></result>
+		</action>
+		
+		<action name="sensorRestartService" class="com.mediaflow.tinyfarmerhub.action.ServiceAction" method="sensorRestart">
+			<result type="json"></result>
+		</action>
+		
+	</package>
+	
+</struts>
