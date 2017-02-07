@@ -57,7 +57,24 @@ OS파일 다운로드
 </Context >
 ~~~
 
+> 4.rc.local 수정  
+```
+~ $ sudo nano /etc/rc.local (아래 내용 추가)
 
+# Print the IP address
+_IP=$(hostname -I) || true
+if [ "$_IP" ]; then
+  printf "My IP address is %s\n" "$_IP"
+fi
+
+sudo chown -hR mediaflow /dev/ttyAMA0
+
+sleep 20 
+sudo /home/mediaflow/TinyfarmerHub/bin/TinyfarmerHub.sh start
+sleep 10
+sudo python /home/mediaflow/TinyfarmerMaster/Master_Start.py
+
+```
 
 
 
