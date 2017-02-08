@@ -17,6 +17,12 @@ OS파일 다운로드
 
 [*라즈베리 b+ (2016.11.30)*](http://my.tinyfarmer.com/tinyfarmer/atth/TinyFarmer-Hub-Raspberryb.img)
 
+[*라즈베리 3 (2017.02.07)*](http://my.tinyfarmer.com/tinyfarmer/atth/2017-02-07-raspbian-jessie-Raspberry3_tinyfarmerHUB_8G.img)
+```
+2017.02.07 
+- 마스터 하드웨어 기능을 내부 모듈로 통합 
+- HC12,RFM69 등 무선 모듈 통신 기능을 추가 
+```
 
 소개
 --------------
@@ -24,7 +30,7 @@ OS파일 다운로드
 
 인터넷과의 연결로 클라우드로 모아진 데이터를 전송하고 제어 명령을 받아 비트모스를 제어합니다.
 
-별도의 설정이 필요 없이 바로 농장에 적용 가능합니다.
+간단한 설정으로 곧바로 농장에 적용 가능합니다.
 
 
 
