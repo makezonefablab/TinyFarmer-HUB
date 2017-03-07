@@ -12,6 +12,13 @@ OS파일 다운로드
 --------------
 
 ### Latest version 
+[*라즈베리 3 (2017.03.07)*](http://my.tinyfarmer.com/tinyfarmer/atth/2017-03-07-raspbian-jessie-Raspberry3_tinyfarmerHUB_8G.img)
+```
+2017.03.07 
+- 채널 값을 로터리 스위치로 변경 
+- USB 웹캠 연결로 CCTV기능 추가 (my.tinyfarmer.com 에서 지정)
+```
+
 [*라즈베리 3 (2017.02.07)*](http://my.tinyfarmer.com/tinyfarmer/atth/2017-02-07-raspbian-jessie-Raspberry3_tinyfarmerHUB_8G.img)
 ```
 2017.02.07 
