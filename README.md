@@ -18,6 +18,7 @@ OS파일 다운로드
 - 채널 값을 로터리 스위치로 변경 
 - 비트모스 쉴드에 연결된 HC12를 통해 Relay제어 기능
 - USB 웹캠 연결로 CCTV기능 추가 (my.tinyfarmer.com 에서 지정)
+- TinyFarmer-Arduino-Shield의 라이브러리 1.5버전과 호환됨 (*)
 ```
 
 [*라즈베리 3 (2017.02.07)*](http://my.tinyfarmer.com/tinyfarmer/atth/2017-02-07-raspbian-jessie-Raspberry3_tinyfarmerHUB_8G.img)
