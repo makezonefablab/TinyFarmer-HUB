@@ -12,7 +12,7 @@ OS파일 다운로드
 --------------
 
 ### Latest version 
-[*라즈베리 3 (2017.04.04)*](http://my.tinyfarmer.com/tinyfarmer/atth/2017-04-04-raspbian-jessie-Raspberry3_tinyfarmerHUB_8G.img)
+[*라즈베리 3 (2017.04.04)*](http://106.240.234.12/tinyfarmer/atth/2017-04-04-raspbian-jessie-Raspberry3_tinyfarmerHUB_8G.img)
 ```
 2017.04.04 
 - 신규 클라우드로 주소(my.tinyfarmer.com) 변경 
