@@ -12,7 +12,7 @@ OS파일 다운로드
 --------------
 
 ### Latest version 
-[*라즈베리 3 (2017.04.04)*](http://my.tinyfarmer.com/tinyfarmer/atth/)
+[*라즈베리 3 (업로드 예정)*](http://my.tinyfarmer.com/tinyfarmer/atth/)
 ```
 2017.04.04 
 - 신규클라우드로 주소 변경 
