@@ -12,6 +12,15 @@ OS파일 다운로드
 --------------
 
 ### Latest version 
+[*라즈베리 3 (2017.04.04)*](http://my.tinyfarmer.com/tinyfarmer/atth/)
+```
+2017.04.04 
+- 신규클라우드로 주소 
+- TinyFarmer-Arduino-Shield의 라이브러리 1.5버전과 호환됨 (*)
+*알려진 버그
+- 클라우드 상에 허브가 정상적으로 연결이지만, 표시는 "끊김" 표시 상태임
+```
+
 [*라즈베리 3 (2017.03.07)*](http://my.tinyfarmer.com/tinyfarmer/atth/2017-03-07-raspbian-jessie-Raspberry3_tinyfarmerHUB_8G.img)
 ```
 2017.03.07 
