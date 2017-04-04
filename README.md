@@ -15,8 +15,9 @@ OS파일 다운로드
 [*라즈베리 3 (업로드 예정)*](http://my.tinyfarmer.com/tinyfarmer/atth/)
 ```
 2017.04.04 
-- 신규클라우드로 주소 변경 (my.tinyfarmer.com)
+- 신규 클라우드로 주소(my.tinyfarmer.com) 변경 
 - TinyFarmer-Arduino-Shield의 라이브러리 1.5버전과 호환됨 (*)
+
 * 알려진 버그
 - 클라우드 상에 허브가 정상적으로 연결이지만, 표시는 "끊김" 표시 상태임
 ```
