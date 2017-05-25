@@ -12,12 +12,12 @@ OS파일 다운로드
 --------------
 
 ### Latest version 
-[*라즈베리 3 unstable (2017.04.12)*](http://106.240.234.12/tinyfarmer/atth/2017-04-12-raspbian-jessie-Raspberry3_tinyfarmerHUB_8G.img)
+
+[*라즈베리 3 (2017.05.24)*](http://106.240.234.12/tinyfarmer/atth/2017-05-24-raspbian-jessie-Raspberry3_tinyfarmerHUB_8G.img)
 ```
-2017.04.12 
+2017.05.24 
 - 통신보안(security)기능 적용
 - 비트모스콘트롤러 프로토콜 변경
-- my.tinyfarmer.com과 호환되지 않음 (클라우드 업데이트 후 사용가능)
 - TinyFarmer-Arduino-Shield의 라이브러리 1.5버전과 호환됨 (*)
 
 * 알려진 버그
