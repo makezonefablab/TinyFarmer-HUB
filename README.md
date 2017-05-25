@@ -1,4 +1,4 @@
-# TinyFarmer-HUB
+# TinyFarmer-HUB (latest version 2017.05.24 버전)
 타이니파머의 센서값과 제어등을 처리하는 농장의 에이전트 (Agent)
 ==========================
 
