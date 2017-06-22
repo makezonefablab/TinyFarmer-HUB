@@ -13,6 +13,16 @@ OS파일 다운로드
 
 ### Latest version 
 
+[*라즈베리 3 (2017.06.14)*](http://106.240.234.12/tinyfarmer/atth/2017-06-14-raspbian-jessie-Raspberry3_tinyfarmerHUB_8G.img)
+```
+2017.05.24 
+- 비트모스 콘트롤러에게 데이터 요청하는 시간간격 조절 기능 추가 (웹 GUI에 Time Delay)
+- 비트모스 센서에 WT1000(A) 센서 사용 시 Time Delay를 20초 이상으로 설정바람
+
+* 알려진 버그
+- 클라우드 상에 허브가 정상적으로 연결이지만, 표시는 "끊김" 표시가 종종 나타남
+```
+
 [*라즈베리 3 (2017.05.24)*](http://106.240.234.12/tinyfarmer/atth/2017-05-24-raspbian-jessie-Raspberry3_tinyfarmerHUB_8G.img)
 ```
 2017.05.24 
