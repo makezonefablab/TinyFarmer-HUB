@@ -13,7 +13,7 @@ OS파일 다운로드
 
 ### Latest version 
 
-[*라즈베리 3 (2017.06.14)*](http://106.240.234.12/tinyfarmer/atth/2017-10-26-raspbian-jessie-Raspberry3_tinyfarmerHUB_8G.img)
+[*라즈베리 3 (2017.10.26)*](http://106.240.234.12/tinyfarmer/atth/2017-10-26-raspbian-jessie-Raspberry3_tinyfarmerHUB_8G.img)
 ```
 2017.10.26 
 - 웹GUI에 카메라 설정 기능 추가 (mjpg-streamer)
