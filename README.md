@@ -13,11 +13,12 @@ OS파일 다운로드
 
 ### Latest version 
 
-[*라즈베리 3 (2017.10.26)*](http://106.240.234.12/tinyfarmer/atth/2017-10-26-raspbian-jessie-Raspberry3_tinyfarmerHUB_8G.img)
+[*라즈베리 3 (2017.10.26)*](http://106.240.234.12/tinyfarmer/atth/2017-10-26-raspbian-jessie-Raspberry3_tinyfarmerHUB_16G.img)
 ```
 2017.10.26 
 - 웹GUI에 카메라 설정 기능 추가 (mjpg-streamer)
 - 허브모드 ("허브" / "허브+CCTV" / "허브+카메라") 설정 요청 및 장치 등록 기능 추가
+- 용량 8G에서 16G로 증가 (마이크로 SD카드를 sdformater에서 "Overwrite Format" 수행 후 이미지 구워야 함)
 
 * 알려진 버그
 - 클라우드 상에 허브가 정상적으로 연결이지만, 표시는 "끊김" 표시가 종종 나타남
