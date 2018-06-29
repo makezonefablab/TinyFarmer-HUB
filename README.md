@@ -13,11 +13,11 @@ OS파일 다운로드
 
 ### Latest version 
 
-[*라즈베리 3 (2018.06.29)*](http://106.240.234.12/tinyfarmer/atth/2018-01-15-raspbian-jessie-Raspberry3_tinyfarmerHUB_15G.img)
+[*라즈베리 3 (2018.06.29)*](http://106.240.234.12/tinyfarmer/atth/TinyFarmer_Hub_MQ_2018_06_28.img)
 ```
-2018.01.15 
-- 쉴드의 버튼 누름 시 시스템 shutdown기능 추가
-- RFM69 통신 모듈 삭제
+2018.06.28 
+- 8Gbytes 이미지로 수정
+- 비트모스 콘트롤러 스케쥴 다운로드 저장 및 이벤트 자동 작동 기능 추가
 
 * 알려진 버그
 - 클라우드 상에 허브가 정상적으로 연결이지만, 표시는 "끊김" 표시가 종종 나타남
