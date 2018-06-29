@@ -13,6 +13,16 @@ OS파일 다운로드
 
 ### Latest version 
 
+[*라즈베리 3 (2018.06.29)*](http://106.240.234.12/tinyfarmer/atth/2018-01-15-raspbian-jessie-Raspberry3_tinyfarmerHUB_15G.img)
+```
+2018.01.15 
+- 쉴드의 버튼 누름 시 시스템 shutdown기능 추가
+- RFM69 통신 모듈 삭제
+
+* 알려진 버그
+- 클라우드 상에 허브가 정상적으로 연결이지만, 표시는 "끊김" 표시가 종종 나타남
+```
+
 [*라즈베리 3 (2018.01.15)*](http://106.240.234.12/tinyfarmer/atth/2018-01-15-raspbian-jessie-Raspberry3_tinyfarmerHUB_15G.img)
 ```
 2018.01.15 
@@ -23,7 +33,9 @@ OS파일 다운로드
 - 클라우드 상에 허브가 정상적으로 연결이지만, 표시는 "끊김" 표시가 종종 나타남
 ```
 
-[*라즈베리 3 (2017.10.26)*](http://106.240.234.12/tinyfarmer/atth/2017-10-26-raspbian-jessie-Raspberry3_tinyfarmerHUB_16G.img)
+### Old version expired belows
+
+[*라즈베리 3 (2017.10.26)*]
 ```
 2017.10.26 
 - 웹GUI에 카메라 설정 기능 추가 (mjpg-streamer)
@@ -34,7 +46,7 @@ OS파일 다운로드
 - 클라우드 상에 허브가 정상적으로 연결이지만, 표시는 "끊김" 표시가 종종 나타남
 ```
 
-[*라즈베리 3 (2017.06.14)*](http://106.240.234.12/tinyfarmer/atth/2017-06-14-raspbian-jessie-Raspberry3_tinyfarmerHUB_8G.img)
+[*라즈베리 3 (2017.06.14)*]
 ```
 2017.05.24 
 - 비트모스 콘트롤러에게 데이터 요청하는 시간간격 조절 기능 추가 (웹 GUI에 Time Delay)
@@ -44,7 +56,7 @@ OS파일 다운로드
 - 클라우드 상에 허브가 정상적으로 연결이지만, 표시는 "끊김" 표시가 종종 나타남
 ```
 
-[*라즈베리 3 (2017.05.24)*](http://106.240.234.12/tinyfarmer/atth/2017-05-24-raspbian-jessie-Raspberry3_tinyfarmerHUB_8G.img)
+[*라즈베리 3 (2017.05.24)*]
 ```
 2017.05.24 
 - 통신보안(security)기능 적용
@@ -55,7 +67,7 @@ OS파일 다운로드
 - 클라우드 상에 허브가 정상적으로 연결이지만, 표시는 "끊김" 표시가 종종 나타남
 ```
 
-[*라즈베리 3 (2017.04.04)*](http://106.240.234.12/tinyfarmer/atth/2017-04-04-raspbian-jessie-Raspberry3_tinyfarmerHUB_8G.img)
+[*라즈베리 3 (2017.04.04)*]
 ```
 2017.04.04 
 - 신규 클라우드로 주소(my.tinyfarmer.com) 변경 
@@ -65,7 +77,7 @@ OS파일 다운로드
 - 클라우드 상에 허브가 정상적으로 연결이지만, 표시는 "끊김" 표시 상태임
 ```
 
-[*라즈베리 3 (2017.03.07)*](http://my.tinyfarmer.com/tinyfarmer/atth/2017-03-07-raspbian-jessie-Raspberry3_tinyfarmerHUB_8G.img)
+[*라즈베리 3 (2017.03.07)*]
 ```
 2017.03.07 
 - 채널 값을 로터리 스위치로 변경 
@@ -74,21 +86,13 @@ OS파일 다운로드
 - TinyFarmer-Arduino-Shield의 라이브러리 1.5버전과 호환됨 (*)
 ```
 
-[*라즈베리 3 (2017.02.07)*](http://my.tinyfarmer.com/tinyfarmer/atth/2017-02-07-raspbian-jessie-Raspberry3_tinyfarmerHUB_8G.img)
+[*라즈베리 3 (2017.02.07)*]
 ```
 2017.02.07 
 - 마스터 하드웨어 기능을 내부 모듈로 통합 
 - HC12,RFM69 등 무선 모듈 통신 기능을 추가 
 ```
 
-
-### Old version 
-
-[*라즈베리 2 (2016.11.30)*](http://my.tinyfarmer.com/tinyfarmer/atth/TinyFarmer-Hub-Raspberry2.img)
-
-[*라즈베리 3 (2016.11.30)*](http://my.tinyfarmer.com/tinyfarmer/atth/TinyFarmer-Hub-Raspberry3.img)
-
-[*라즈베리 b+ (2016.11.30)*](http://my.tinyfarmer.com/tinyfarmer/atth/TinyFarmer-Hub-Raspberryb.img)
 
 
 소개
