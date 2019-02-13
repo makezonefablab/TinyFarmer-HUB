@@ -13,6 +13,13 @@ OS파일 다운로드
 
 ### Latest version 
 
+[*라즈베리 3 (2019.02.11)*](http://106.240.234.12/tinyfarmer/atth/TinyFarmer_Hub_MQ_20190211.img)
+```
+2019.02.11 
+- 라즈베리파이 모니터링 GUI 구현
+- 모니터링 GUI에서 수동제어 가능
+```
+
 [*라즈베리 3 (2018.06.29)*](http://106.240.234.12/tinyfarmer/atth/TinyFarmer_Hub_MQ_2018_06_28.img)
 ```
 2018.06.28 
