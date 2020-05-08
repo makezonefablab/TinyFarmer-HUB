@@ -13,7 +13,7 @@ OS파일 다운로드
 
 ### Latest version 
 
-[*라즈베리 3 (2020.05.06)*](http://110.10.189.93/tinyfarmer/atth/TinyFarmer_Hub_MQ_V3_NO_GUI_20200504.img)
+[*라즈베리 3 (2020.05.06)*](https://tinyfarmer.net/tinyfarmer/atth/TinyFarmer_Hub_MQ_V3_NO_GUI_20200504.img)
 ```
 2019.05.06 
 - 서버와 SSL 연동
