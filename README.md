@@ -13,17 +13,29 @@ OS파일 다운로드
 
 ### Latest version 
 
+[*라즈베리 4 (2021.06.13)*](https://tinyfarmer.net/tinyfarmer/atth/TinyFarmer_Hub_dashbd_210613.zip)
+```
+2021.06.13 
+- 라즈베리파이 4 B+
+- Raspberrypi Imager로 굽기 가능
+- 기본 데쉬보드 기능 추가 (node-red) 
+```
+![데쉬보드실행](https://github.com/makezonefablab/TinyFarmer-HUB/blob/master/img/dashboard1_exe1.png) 
+![데쉬보드실행](https://github.com/makezonefablab/TinyFarmer-HUB/blob/master/img/dashboard1_exe2.png) 
+![데쉬보드](https://github.com/makezonefablab/TinyFarmer-HUB/blob/master/img/dashboard1.png) 
+
+
+
+
+### Old version expired belows
+
+
 [*라즈베리 3 (2020.05.06)*](https://tinyfarmer.net/tinyfarmer/atth/TinyFarmer_Hub_MQ_V3_NO_GUI_20200504.img)
 ```
 2019.05.06 
 - 서버와 SSL 연동
 - 라즈베리파이 3 B+ 
 ```
-
-
-
-
-### Old version expired belows
 
 [*라즈베리 3 (2019.03.19)*](http://106.240.234.12/tinyfarmer/atth/TinyFarmer_Hub_MQ_V3_NO_GUI_20190319.img)
 ```
