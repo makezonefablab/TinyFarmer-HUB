@@ -19,6 +19,7 @@ OS파일 다운로드
 - 라즈베리파이 4 B+
 - Raspberrypi Imager로 굽기 가능
 - 기본 데쉬보드 기능 추가 (node-red) 
+- 본 버전부터는 유료버전입니다.
 ```
 ![데쉬보드실행](https://github.com/makezonefablab/TinyFarmer-HUB/blob/master/img/dashboard1_exe1.png) 
 ![데쉬보드실행](https://github.com/makezonefablab/TinyFarmer-HUB/blob/master/img/dashboard1_exe2.png) 
