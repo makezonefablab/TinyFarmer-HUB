@@ -13,7 +13,7 @@ OS파일 다운로드
 
 ### Latest version 
 
-[*라즈베리 4 (2021.06.13)*](https://tinyfarmer.net/tinyfarmer/atth/TinyFarmer_Hub_dashbd_210613.zip)
+[*라즈베리 4 (2021.06.13)*]
 ```
 2021.06.13 
 - 라즈베리파이 4 B+
